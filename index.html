@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Lastacruz</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="logo">Lastacruz</a>
+          <button class="btn btn-open" id="btnOpen">&#9776;</button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button class="btn btn-close" id="btnClose">X</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container flexbox">
+        <div class="flow-content">
+          <h1 class="hero__title">Don't have website in 2022?</h1>
+          <p class="hero__body">
+            You're on the right place and time i will help you build your
+            bussiness and attracted potential customer.
+          </p>
+          <a href="#contact" class="btn btn-primary"> Get in touch </a>
+          <a
+            href="./src/Resume.docx"
+            download="Resume"
+            class="btn btn-secondary"
+          >
+            Download CV
+          </a>
+        </div>
+        <div class="flow-content">
+          <img
+            src="/src/illustration.svg"
+            alt="This is illustration of people talking"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content flow-content">
+          <h2 class="align-left-title">About me</h2>
+          <h3>Get to know me a little</h3>
+          <p>
+            Hi i am <span class="highlight">L</span>ouis
+            <span class="highlight">A</span>ndrie
+            <span class="highlight">Sta</span>.Ana
+            <span class="highlight">Cruz</span> as aspiring self taught web
+            developer building website is my absolute passion and happiness when
+            i see it live online.
+          </p>
+          <div class="logos">
+            <a href="https://www.facebook.com/LouiTzkie">
+              <img src="./src/facebook.svg" alt="facebook hand made logo" />
+            </a>
+            <a href="https://www.youtube.com/channel/UC8THsagfl48gTAB7HF_quLA">
+              <img src="./src/youtube.svg" alt="youtube hand made logo " />
+            </a>
+            <a href="https://github.com/lastacruz-dev">
+              <img src="./src/github.svg" alt="github hand made logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section class="project" id="project">
+      <section class="project" id="project">
+        <div class="container">
+          <h2 class="align-left-title">Project</h2>
+          <div class="wrapper grid">
+            <!-- first project -->
+            <div class="flow-content">
+              <img src="./src/easybank.jpg" alt="" />
+              <h3>Easybank</h3>
+              <p>
+                Take your financial life online. Your Easybank account will be a
+                one-stop-shop for spending, saving, budgeting, investing, and
+                much more.
+              </p>
+              <a
+                href="https://bank-landing-page-project-03.netlify.app"
+                class="btn"
+              >
+                Live demo
+              </a>
+            </div>
+            <!-- seconde project  -->
+            <div class="flow-content">
+              <img src="./src/Fylo.jpg" alt="" />
+              <h3>Fylo</h3>
+              <p>
+                Fylo stores all your most important files in one secure
+                location. Access them wherever you need, share and collaborate
+                with friends family.
+              </p>
+              <a
+                href="https://fylo-landing-page-project-05.netlify.app"
+                class="btn"
+              >
+                Live demo
+              </a>
+            </div>
+            <!-- third project  -->
+            <div class="flow-content">
+              <img src="./src/manage.jpg" alt="" />
+              <h3>Manage</h3>
+              <p>
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.
+              </p>
+              <a
+                href="https://manage-landing-page-project-02.netlify.app/"
+                class="btn"
+              >
+                Live demo
+              </a>
+            </div>
+            <!-- fourth project  -->
+            <div class="flow-content">
+              <img src="./src/Insure.jpg" alt="" />
+              <h3>Insure</h3>
+              <p>
+                Get your life insurance coverage easier and faster. We blend our
+                expertise and technology to help you find the plan that’s right
+                for you. Ensure youand your loved ones are protected.
+              </p>
+              <a
+                href="https://insurance-landing-page-06.netlify.app"
+                class="btn"
+              >
+                Live demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <footer class="contact" id="contact">
+      <div class="container flow-content">
+        <h2 class="align-left-title">Contact</h2>
+
+        <div class="flexbox">
+          <div class="field">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="off" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button class="btn" type="submit" onclick="sendMail()">
+              Send Message
+            </button>
+          </div>
+
+          <aside class="contact-info flow-content">
+            <div class="box">
+              <h3>Email</h3>
+              <p>louitzkie@gmail.com</p>
+            </div>
+            <div class="box">
+              <h3>Phone #</h3>
+              <p>09319250185</p>
+            </div>
+            <div class="box">
+              <h3>Social media</h3>
+              <a href="https://www.facebook.com/LouiTzkie">
+                <img src="./src/facebook.svg" alt="facebook hand made logo" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UC8THsagfl48gTAB7HF_quLA"
+              >
+                <img src="./src/youtube.svg" alt="youtube hand made logo " />
+              </a>
+              <a href="https://github.com/lastacruz-dev">
+                <img src="./src/github.svg" alt="github hand made logo" />
+              </a>
+            </div>
+          </aside>
+        </div>
+
+        <div class="copy">Portfolio - Made with love</div>
+      </div>
+    </footer>
+  </body>
+</html>
