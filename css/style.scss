@@ -112,11 +112,6 @@ section {
 .header {
   padding: 1rem 0;
 
-  .btn {
-    background: #fff;
-    color: #2e2e2e;
-  }
-
   .nav {
     display: flex;
     justify-content: space-between;
@@ -131,12 +126,12 @@ section {
 
     ul {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
       align-items: center;
       width: 50%;
       min-height: 100vh;
-      background: skyblue;
+      background: #2e2e2e;
       position: fixed;
       top: 0;
       right: 0;
@@ -146,6 +141,10 @@ section {
 
     .reveal {
       transform: none;
+    }
+
+    li {
+      color: #fff;
     }
 
     a {
@@ -174,6 +173,7 @@ section {
 
       li {
         margin-left: 2em;
+        color: #2e2e2e;
       }
 
       a {
