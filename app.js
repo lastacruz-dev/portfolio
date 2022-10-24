@@ -25,3 +25,9 @@ function sendMail(e) {
     }
   );
 }
+
+// Code for chevron cta
+window.addEventListener("scroll", () => {
+  const chevronUp = document.querySelector(".cta-top");
+  chevronUp.classList.toggle("sticky", window.scrollY > 0);
+});
