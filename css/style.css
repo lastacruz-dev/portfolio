@@ -176,9 +176,6 @@ section {
 }
 
 /* HEADER */
-.header {
-  padding: 1rem 0;
-}
 .header .nav {
   display: flex;
   justify-content: space-between;
@@ -214,6 +211,9 @@ section {
   font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: 0.1em;
+}
+.header .nav img {
+  border-radius: 3px;
 }
 
 @media (min-width: 40em) {
